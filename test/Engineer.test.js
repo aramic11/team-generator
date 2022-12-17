@@ -1,4 +1,4 @@
-const Engineer = require("../lib/Engineer");
+const Engineer = require("../company/Engineer");
 
 //testing the constructor arguments
 test("Can set GitHUb account via constructor", () => {

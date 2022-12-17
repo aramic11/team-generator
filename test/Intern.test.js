@@ -1,4 +1,4 @@
-const Intern = require("../lib/Intern");
+const Intern = require("../company/Intern");
 
 //testing the constructor arguments
 test("Can set school via constructor", () => {
