@@ -7,7 +7,7 @@ This was a very interesting challenge and it was the first time i had to create 
 
 ## Links
 GitHub: https://github.com/aramic11/team-generator
-https://github.com/aramic11/team-generator/blob/main/TeamGeneratorVid.mp4
+Video: https://github.com/aramic11/team-generator/blob/main/TeamGeneratorVid.mp4
 
 
 ## Screenshot
