@@ -7,6 +7,9 @@ This was a very interesting challenge and it was the first time i had to create 
 
 ## Links
 GitHub: https://github.com/aramic11/team-generator
+https://github.com/aramic11/team-generator/blob/main/TeamGeneratorVid.mp4
 
 
 ## Screenshot
+![Screen Shot 2022-12-17 at 12 35 32 PM](https://user-images.githubusercontent.com/113563367/208254740-1d8a11d8-566c-4bad-837c-593de3c1dfff.png)
+![Screen Shot 2022-12-17 at 12 35 52 PM](https://user-images.githubusercontent.com/113563367/208254748-f6b4533d-f84e-4403-a8d0-ab5614139f85.png)
