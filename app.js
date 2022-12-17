@@ -1,4 +1,6 @@
-
+const Manager = require("./company/Manager");
+const Engineer = require("./company/Engineer");
+const Intern = require("./company/Intern");
 const inquirer = require("inquirer");
 const questions = require("./company/questions.js");
 const path = require("path");
@@ -7,9 +9,11 @@ const fs = require("fs");
 const output_Direction = path.resolve(__dirname, "output");
 const yieldPath = path.join(output_Direction, "team.html");
 
+const render = require("./company/renderHtml");
+
 let employeeArray = [];
 
-// function to ask User some questions
+// function that asks users questions
 let promptUser = () => {
     return inquirer.prompt(questions)
         .then(function (answers) {
@@ -29,11 +33,14 @@ let promptUser = () => {
                     employeeArray.push(additionalEmployee);
                     break;
             }
-            //repeats the questions or ends them
+
+            //repeats or end questions
             if (answers.addOrEnd) {
                 return promptUser();
             }
+
             displayHTML();
+
         });
 }
 
@@ -45,7 +52,7 @@ let displayHTML = () => {
             console.log(error);
         }
         else {
-            console.log("Successfully generated file!");
+            console.log("Successfully created file!");
         }
     })
 }
